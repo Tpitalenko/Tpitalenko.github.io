@@ -1,0 +1,94 @@
+* {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+body {
+    margin: 0 .5vw;
+}
+
+.pizza-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
+
+.pizza {
+    width: 27.08vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.52vw;
+    margin-right: 6.8vw;
+}
+
+.pizza:nth-child(3n) {
+    margin-right: 0;
+}
+
+.pizza > img {
+    width: 27.08vw;
+    filter: drop-shadow(-10px -10px 20px rgba(0, 0, 0, 0.25)) drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    margin-bottom: 0.55vw;
+}
+
+.pizza:nth-child(2n) > img {
+    margin-bottom: 1.5vw
+}
+
+.pizza:nth-child(5n) > img {
+    margin-bottom: 2.2vw
+}
+
+.pizza:nth-child(8n) > img {
+    margin-bottom: 1vw;
+}
+
+.pizza:nth-child(10n) > img {
+    margin-bottom: 1vw;
+}
+
+.pizza-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.33vw;
+    line-height: 4.09vw;
+    color: #FFFFFF;
+    text-shadow: 0.34vw 0.34 0.20vw rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.34vw;
+}
+
+.pizza:nth-child(5n) > .pizza-name {
+    font-size: 2.7vw;
+    line-height: 3.4vw;
+}
+
+.pizza-price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+    color: #FFFFFF;
+    text-shadow: 0.06vw 0.06vw 0px #FF5C00;
+    margin-bottom: 0.69vw;
+}
+
+.pizza:nth-child(4n) > .pizza-price {
+    margin-bottom: 2.22vw;
+}
+
+.pizza:nth-child(8n) > .pizza-price {
+    margin-bottom: 0.69vw;
+}
+
+.pizza-discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+
+    color: #CCCCCC;
+
+    text-shadow: 0.34vw 0.34 0.20vw rgba(0, 0, 0, 0.25);
+}

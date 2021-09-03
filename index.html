@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/menu_nav.js"></script>
+    <title>Твоя пицца</title>
+    <link type="image/x-icon" href="./img/favicon/favicon.svg" rel="shortcut icon">
+    <link type="Image/x-icon" href="./img/favicon/favicon.svg" rel="icon">
+</head>
+<body>
+    <div class="header">
+        <img src="./img/header/logo.png">
+        <nav>
+            <a href="#scroll">Акции</a>
+            <a href="#menu">Меню</a>
+            <a href="#about">О нас</a>
+            <a href="#delivery">Доставка</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <hr>
+        <p>+7(4742)71-08-80</p>
+    </div>
+    <div class="container">
+      <div class="slider">
+         <div class="slider-line">
+            <img src="./img/slider/slider_img1.png" alt="img1">
+            <img src="./img/slider/slider_img3.png" alt="img2">
+            <img src="./img/slider/slider_img5.png" alt="img3">
+         </div>
+      </div>
+   </div>
+    <div id="scroll" class="promo">
+        <img src="./img/promo/promo1.png" alt="">
+        <img src="./img/promo/promo2.png" alt="">
+    </div>
+    <div class="menu" id="menu">
+        <!-- <div class="menu-header">
+            <p>Меню</p>
+        </div> -->
+        <div class="nav-menu">
+            <a onclick="pizza_click()" id="pizza_but" class="nav-menu_item nav-menu-selected" href="pizza.html" target="menu-frame">Пиццы</a>
+            <a onclick="snack_click()" id="snack_but" class="nav-menu_item" href="snack.html" target="menu-frame">Закуски</a>
+            <a onclick="drink_click()" id="drink_but" class="nav-menu_item" href="drink.html" target="menu-frame">Напитки</a>
+        </div>
+        <iframe id="menu-frame" class="snack-menu-frame" src="pizza.html" name="menu-frame" frameborder="0"></iframe>
+    </div>
+    <div class="about-us" id="about">
+        <div class="about-us-header">
+            <p>О нас</p>
+        </div>
+        <div class="about-us-content">
+            <img src="./img/about-us/ab_us.png">
+            <p>
+                Your Pizza - молодая развивающаяся команда. В нашей пиццерии мы предлагаем самые современные и вкусные блюда, свежий взгляд на приготовление пиццы и закусок. Мы прислушиваемся к вашему мнению, улучшаем  технику приготовления и совершенствуемся вместе с вами. Для нас - довольный клиент в приоритете!  
+Мобильное приложение для пиццерии "Your Pizza" служит для заказа нашей продукции, а также для информирования клиентов о ценах, акциях, новостях нашей пиццерии.
+            </p>
+        </div>
+    </div>
+    <div class="delivery" id="delivery">
+        <div class="delivery-header">
+            <p>Доставка</p>
+        </div>
+        <p>Среднее время доставки от 1 до 1,5 часов.<br>
+            Оплата доставки онлайн.<br>
+            При заказе от 690₽ доставка по г.Липецк бесплатная.
+            При предварительном заказе доставки скидка 5%.<br>
+            При самовывозе действует скидка 100₽</p>
+    </div>
+    <div class="delivery-map">
+        <div class="map-header">
+            <p>Зоны доставки</p>
+        </div>
+        <iframe class="map-frame" src="https://yandex.ru/map-widget/v1/-/CCUme6eMPD" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </div>
+    <footer id="contacts">
+        <img src="./img/header/logo.png">
+        <div class="adress">
+            <p>Катукова 30А</p>
+            <p>с 10:00 до 23:00</p>
+        </div>
+        <a href="https://vk.com/yourpizza48"><img src="./img/social/vk.svg"></a>
+        <a href="insta.com"><img src="./img/social/insta.svg"></a>
+        <p>+7(4742)71-08-80</p>
+    </footer>
+    <script src="./js/menu_nav.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

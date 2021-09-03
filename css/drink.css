@@ -1,0 +1,53 @@
+* {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+body {
+    margin: 0 .5vw;
+}
+
+.drink-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 4vw;
+}
+
+.drink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.77vw;
+    margin-right: 24.02vw;
+}
+
+.drink:last-child {
+    margin-right: 0;
+}
+
+.drink > img {
+    height: 46.25vw;
+    filter: drop-shadow(-15px -15px 15px rgba(0, 0, 0, 0.25)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
+}
+
+.drink-name {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.33vw;
+    line-height: 4.09vw;
+    color: #FFFFFF;
+    text-shadow: 0.34vw 0.34 0.20vw rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.34vw;
+}
+
+.drink-price {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 2vw;
+    color: #fff;
+    text-shadow: 0.06vw 0.06vw 0px #FF5C00;
+}

@@ -1,0 +1,88 @@
+* {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+body {
+    margin: 0 .5vw;
+}
+
+.snack-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
+
+.snack {
+    width: 27.08vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.77vw;
+    margin-right: 5.9vw;
+}
+
+.snack:nth-child(3n) {
+    margin-right: 0;
+}
+
+.snack > img {
+    width: 27.08vw;
+    filter: drop-shadow(-15px -15px 15px rgba(0, 0, 0, 0.25)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
+}
+
+.snack:nth-child(2n) > img {
+    margin-bottom: 2.2vw;
+}
+
+.snack:nth-child(3n) > img {
+    margin-bottom: 0.83vw;
+}
+
+.snack:nth-child(4n) > img {
+    margin-bottom: 0.2vw;
+}
+
+.snack:nth-child(5n) > img {
+    margin-bottom: .6vw;
+}
+
+.snack:nth-child(6n) > img {
+    margin-bottom: 2vw;
+}
+
+.snack-name {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.33vw;
+    line-height: 4.09vw;
+    color: #FFFFFF;
+    text-shadow: 0.34vw 0.34 0.20vw rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.34vw;
+}
+
+.snack:nth-child(5n) > .snack-name {
+    font-size: 2.7vw;
+    line-height: 3.4vw;
+}
+
+.snack-price {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+    color: #FFFFFF;
+    margin-bottom: 0.69vw;
+}
+
+.snack-discription {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 2vw;
+    color: #fff;
+    text-shadow: 0.06vw 0.06vw 0px #FF5C00;
+}
