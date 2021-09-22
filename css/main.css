@@ -302,14 +302,6 @@ footer > img {
 
 .adress > p {
     font-style: normal;
-    font-weight: 600;
-    font-size: 2.5vw;
-    line-height: 3.05vw;
-    color: #FFFFFF;
-}
-
-.adress > p:last-child {
-    font-style: normal;
     font-weight: normal;
     font-size: 1.25vw;
     line-height: 1.52vw;
