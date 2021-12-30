@@ -14,4 +14,4 @@ function imageSlide() {
     sliderLine.style.left = -offset + 'px';
 }
 
-setInterval(imageSlide, 5000)
+setInterval(imageSlide, 10000)
